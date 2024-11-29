@@ -1,3 +1,5 @@
+Ex1.
+
 We see three critical differences between programming and software engineering: time, scale, and the trade-offs at play. 
 On a software engineering project, engineers need to be more concerned with the passage of time and the eventual need for change. 
 In a software engineering organization, we need to be more concerned about scale and efficiency, 
@@ -10,6 +12,7 @@ Em questão de tempo: Engenharia de software considera a necessidade de mudança
 Escala: Engenharia de software foca em eficiência e capacidade de crescimento do software e da equipe;
 Trade-offs: Decisões complexas e de alto impacto são feitas com estimativas de tempo e crescimento.
 
+Ex2.
 Exemplos de Trade-offs
 Desempenho vs. Facilidade de Manutenção:
 
@@ -23,3 +26,7 @@ Escalabilidade vs. Custo Inicial:
 
 Projetar para escalabilidade pode ser caro e demorado no início.
 Economizar inicialmente pode limitar a escalabilidade futura e exigir reestruturação.
+
+
+UML
+![image](https://github.com/user-attachments/assets/cfb1a8a0-ea1c-4074-9738-c00b40c63be2)
