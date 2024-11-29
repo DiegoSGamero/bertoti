@@ -29,4 +29,6 @@ Economizar inicialmente pode limitar a escalabilidade futura e exigir reestrutur
 
 
 UML
+
+
 ![image](https://github.com/user-attachments/assets/cfb1a8a0-ea1c-4074-9738-c00b40c63be2)
