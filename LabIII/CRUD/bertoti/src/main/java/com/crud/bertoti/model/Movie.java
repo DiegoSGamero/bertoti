@@ -1,7 +1,9 @@
-package com.crud.bertoti.models;
+package com.crud.bertoti.model;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 
@@ -11,6 +13,7 @@ public class Movie {
 
     @Id
     @Column(name = "cod_movie")
+    @GeneratedValue(strategy = GenerationType.IDENTITY) 
     private Integer codMovie;
 
     @Column(name = "movie_name", length = 355)
@@ -19,7 +22,7 @@ public class Movie {
     @Column(name = "movie_director", length = 255)
     private String movieDirector;
 
-    @Column(name = "movie_duration") // Mantido conforme você escreveu na tabela
+    @Column(name = "movie_duration") 
     private Integer movieDuration;
 
     @Column(name = "movie_category", length = 255)
