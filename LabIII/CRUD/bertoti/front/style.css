@@ -11,7 +11,8 @@ body {
 
 
 h1, h2 {
-  text-align: center;
+  text-al gn: center;
+  color: rgb(32, 32, 32);
 }
 
 form > div {
@@ -22,6 +23,7 @@ label {
   display: inline-block;
   width: 100px;
   font-weight: bold;
+  color: rgb(32, 32, 32);
 }
 
 input[type="text"], input[type="number"] {
@@ -30,8 +32,9 @@ input[type="text"], input[type="number"] {
 }
 
 button {
-  padding: 6px 12px;
-  margin-right: 10px;
+  padding: 4px;
+  margin: 4px;
+  width: 64px;
 }
 
 ul#movies-list {
@@ -41,7 +44,7 @@ ul#movies-list {
 
 ul#movies-list li {
   border: 1px solid #ccc;
-  padding: 10px;
+  padding: 8px;
   margin-bottom: 6px;
   display: flex;
   justify-content: space-between;
@@ -52,6 +55,6 @@ ul#movies-list li {
   flex-grow: 1;
 }
 
-.movie-actions button {
-  margin-left: 5px;
-}
+/* .movie-actions button {
+  /* margin-left: 5px; */
+
